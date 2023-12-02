@@ -1,0 +1,68 @@
+.parent {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.child.container1 img {
+    width: fit-content;
+    height: auto;
+    border: 2px solid white;
+    margin-top: 140px;
+    border-radius: 25px;
+  }
+
+
+
+.child.container2 {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 20px;
+    width: 150;
+    margin-top:10px;
+    padding: 70px;
+}
+
+#name{
+    color: grey;
+    font-size: 20px;
+}
+
+.moodboard, .design-persona, .wireframes, .mockups {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top:140px;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+  }
+
+  .container-design {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: bottom;
+    flex-wrap: wrap-reverse;
+  
+  }
+
+
+
+  p{
+    color: white;
+  }
+
+
+@media(max-width:1200px){
+  .child.container2{
+    margin-left:40px;
+  }
+}
+
+
+.space{
+  height: 180px;
+}
