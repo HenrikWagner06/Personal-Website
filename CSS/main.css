@@ -20,8 +20,6 @@
 .child.container2 {
     border: 2px solid white;
     border-radius: 25px;
-    padding: 20px;
-    width: 150;
     margin-top:10px;
     padding: 70px;
 }
@@ -32,33 +30,44 @@
 }
 
 .moodboard, .design-persona, .wireframes, .mockups {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    margin-top:140px;
-    flex-wrap: wrap-reverse;
-    text-align: center;
+  height: auto;
+  margin-top: 140px;
   }
 
   .container-design {
+    height: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
-    align-content: bottom;
-    flex-wrap: wrap-reverse;
+    color: white;
+    flex-wrap: wrap;
   
   }
 
 
 
   p{
-    color: white;
+    color: wheat;
+    text-align: center;
   }
+
+  button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
 
 
 @media(max-width:1200px){
   .child.container2{
-    margin-left:40px;
+    margin:auto;
   }
 }
 
@@ -66,3 +75,54 @@
 .space{
   height: 180px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 10px white;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-color:white;
+  color: #fff;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.forms-button {
+  background-color: wheat;
+  color: grey;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forms-button:hover {
+  background-color: #EEDD82;
+}
+
+textarea{
+  resize: none;
+}
+

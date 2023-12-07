@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../CSS/main.css">
     <script defer src="../JS/main.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
 <header>
@@ -36,18 +38,22 @@
         <div class="moodboard">
             <img class="moodboard" width="200px" height="150px"  src="../IMG/moodboard.jpeg">
             <p>MoodBoard</p>
+            <a href="../IMG/moodboard.jpeg" download=""><button  >Download ↑</button></a>
         </div>
         <div class="design-persona">
             <img class="design-persona" width="200px" height="150px"  src="../IMG/Design-Persona-Henrik-Wagner-23-03-2023.jpg">
-            <p>Design Persona</p>
+            <p>Design-Persona</p>
+            <a href="../IMG/Design-Persona-Henrik-Wagner-23-03-2023.jpg" download=""><button>Download ↑</button></a>
         </div>
         <div class="wireframes">
             <img class="wireframes" width="200px" height="150px"  src="../IMG/wireframes.jpg">
             <p>Wireframes</p>
+            <a href="../IMG/wireframes.jpg" download=""><button>Download ↑</button></a>
         </div>
         <div class="mockups">
             <img class="mockups"  width="200px" height="150px" src="../IMG/wireframes.jpg">
             <p>Mockups</p>
+            <a href="../IMG/wireframes.jpg" download=""><button>Download ↑</button></a>
         </div>
     </div>
 </main>
@@ -58,18 +64,32 @@
 <footer>
     <div class="footer-content">
         <h3 id="name">Henrik Wagner</h3>
-        <p>Explore the Portfolio of Henrik Wagner:
+        <p id="text about me">Explore the Portfolio of Henrik Wagner:
            Delve into my professional landscape on my personal website.
            Gain insights into my endeavors, projects, and reflections.
            Welcome to my virtual domain!</p>
-           <p id="law"><a class="datenschutz" href="datenschutz.html">Datenschutz</a><br>
-              <a class="impressum" href="impressum.html>">Impressum</a></p>
-        <ul class="socials">
-            <li><a href="https://www.facebook.com/profile.php?id=100083663256614"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/henrik_3502/"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/henrik-wagner-a67909274/"><i class="fa fa-linkedin-square"></i></a></li>
-        </ul>
-    </div>
-</footer>
+           <p id="law"><a class="datenschutz" href="datenschutz.html">Data Protection</a><br>
+              <a class="impressum" href="impressum.html>">Imprint</a></p>
+              <div class="icons">
+                <ul class="socials">
+                    <li>
+                      <a class="icon" id="facebook" href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                    </li>
+                    <li>
+                      <a class="icon" id="instagram" href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                  </li>
+                  <li>
+                    <a class="icon" id="git" href=""><ion-icon name="logo-github"></ion-icon></a>
+                  </li>
+                  <li>
+                    <a class="icon" id="git" href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                  </li>
+                  <li>
+                    <a class="icon" id="git" href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                  </li>
+              </ul>
+  
+            </div>
+  </footer>
 </body>
 </html>
